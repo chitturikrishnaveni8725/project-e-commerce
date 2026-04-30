@@ -15,7 +15,7 @@ def connect_db():
 print("database connected successfully")
 
 # Create table
-def create_table():
+def create_table():s
     conn = connect_db()
     cur = conn.cursor()
 
